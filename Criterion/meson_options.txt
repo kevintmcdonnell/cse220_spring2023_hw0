@@ -1,0 +1,14 @@
+option('tests', type: 'boolean', value: false)
+option('dev',   type: 'boolean', value: false)
+option('samples', type: 'boolean', value: false)
+
+option('cxx-support', type: 'feature', value: 'disabled')
+option('i18n',        type: 'feature', value: 'disabled')
+option('theories',    type: 'feature', value: 'disabled')
+option('diffs',       type: 'feature', value: 'disabled')
+
+# Platform-specific workarounds
+option('mingw-define-off_t', type: 'boolean', value: false)
+
+option('rpath-in-pkgconfig', type: 'feature', value: 'auto',
+       description: 'Sets RPATH for users in the Criterion pkg-config file')

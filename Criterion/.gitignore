@@ -1,0 +1,8 @@
+*~
+*.sw[op]
+.*.sw[op]
+build
+subprojects/boxfort
+subprojects/libgit2
+subprojects/nanomsg
+subprojects/nanopb
